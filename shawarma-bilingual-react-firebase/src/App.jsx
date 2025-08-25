@@ -37,14 +37,16 @@ import {
   getDownloadURL,
 } from "firebase/storage";
 
-// ------------- Firebase Setup -------------
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyDlOba77-S3Rjk85RIfPuOcVZVrkpz5GjQ",
+  authDomain: "shawarma-shop-33123.firebaseapp.com",
+  projectId: "shawarma-shop-33123",
+  storageBucket: "shawarma-shop-33123.firebasestorage.app",
+  messagingSenderId: "279183141201",
+  appId: "1:279183141201:web:3e61a8a78181f987390b70",
+  measurementId: "G-VG6ZEC5G3N"
 };
 
 const app = initializeApp(firebaseConfig);
